@@ -31,17 +31,7 @@
 	                 "{ConstraintExpression Type=RelativeToView,
 	                                        ElementName=topBox,
 	                                        Property=Y,
-	                                        Constant=100}"
-	             RelativeLayout.WidthConstraint=
-	                 "{ConstraintExpression Type=RelativeToView,
-	                                        ElementName=topBox,
-	                                        Property=Width,
-	                                        Factor=0.33}"
-	             RelativeLayout.HeightConstraint=
-	                 "{ConstraintExpression Type=RelativeToView,
-	                                        ElementName=topBox,
-	                                        Property=Height,
-	                                        Factor=0.33}"  />
+	                                        Constant=100}" />
           </RelativeLayout>
 	</ContentPage.Content>
 </ContentPage>

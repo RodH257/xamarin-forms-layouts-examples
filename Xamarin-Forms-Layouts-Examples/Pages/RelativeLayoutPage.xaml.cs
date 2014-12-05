@@ -11,7 +11,7 @@ namespace XamarinFormsLayoutsExamples
 			InitializeComponent ();
 
 			Label nearBottomLabel = new Label {
-				Text = "Near the bottom",
+				Text = "near the bottom",
 			};
 			relativeLayout.Children.Add (nearBottomLabel, 
 				Constraint.RelativeToParent (layout => {
@@ -32,6 +32,10 @@ namespace XamarinFormsLayoutsExamples
 					return sibling.Y - sibling.Height;
 				}));
 
+
+
+			//This is to get rid of compiler warnings, not necessary.
+			topBox.Color = Color.Red;
 		}
 	}
 }

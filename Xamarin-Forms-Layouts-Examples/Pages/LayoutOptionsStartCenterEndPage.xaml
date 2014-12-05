@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsLayoutsExamples.LayoutOptionsStartCenterEndPage">
 	<ContentPage.Content>
-
-			<StackLayout>
-				<Button HorizontalOptions="Start" Text="Start" BackgroundColor="Gray"></Button>
-				<Button HorizontalOptions="Center" Text="Center" BackgroundColor="Gray"></Button>
-				<Button HorizontalOptions="End" Text="End" BackgroundColor="Gray"></Button>
-				<Button HorizontalOptions="Fill" Text="Fill" BackgroundColor="Gray"></Button>
-				
-			</StackLayout>
+		<StackLayout>
+			<Button HorizontalOptions="Start" Text="Start" BackgroundColor="Gray">
+			</Button>
+			<Button HorizontalOptions="Center" Text="Center" BackgroundColor="Gray">
+			</Button>
+			<Button HorizontalOptions="End" Text="End" BackgroundColor="Gray">
+			</Button>
+			<Button HorizontalOptions="Fill" Text="Fill" BackgroundColor="Gray">
+			</Button>
+		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
