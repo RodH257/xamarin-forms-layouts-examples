@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsLayoutsExamples.GridPage">
+	<ContentPage.Content>
+		<Grid Padding="5" HeightRequest="50" VerticalOptions="Start" BackgroundColor="White">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto">
+				</RowDefinition>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="30">
+				</ColumnDefinition>
+				<ColumnDefinition Width="100">
+				</ColumnDefinition>
+				<ColumnDefinition Width="*">
+				</ColumnDefinition>
+			</Grid.ColumnDefinitions>
+			<Grid.Children>
+				<Image Source="xamarin_logo.png" Grid.Column="0">
+				</Image>
+				<Label Text="@xamarinhq"  Grid.Column="1" Font="Bold, 14" VerticalOptions="Center" TextColor="#5D5D5D">
+				</Label>
+				<StackLayout Spacing="2" Grid.Column="2" VerticalOptions="Center">
+					<Label Text="26.6k Followers" Font="14" TextColor="#50AB78">
+					</Label>
+					<Label Text="3,029 tweets" Font="12" TextColor="#5D5D5D">
+					</Label>
+				</StackLayout>
+			</Grid.Children>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

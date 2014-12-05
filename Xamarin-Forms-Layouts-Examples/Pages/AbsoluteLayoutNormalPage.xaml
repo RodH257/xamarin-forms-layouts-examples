@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsLayoutsExamples.AbsoluteLayoutNormalPage">
+	<ContentPage.Content>
+	<AbsoluteLayout>
+		<BoxView BackgroundColor="Blue" AbsoluteLayout.LayoutBounds="25, 50, 50, 50"></BoxView>
+		<BoxView BackgroundColor="Red" AbsoluteLayout.LayoutBounds="75, 100, 30, 30"></BoxView>
+		<Label Text="Some Text" AbsoluteLayout.LayoutBounds="150, 150, Autosize, Autosize"></Label>
+	</AbsoluteLayout>
+	</ContentPage.Content>
+</ContentPage>

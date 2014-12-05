@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsLayoutsExamples.HomePage">
+	<ContentPage.Content>
+		<StackLayout Spacing="1">
+			<Button Command="{Binding NestedHorizontalStackLayout}" Text="Nested Horizontal Stack Layout">
+			</Button>
+			 <Button Command="{Binding ScrollView}" Text="Scroll View">
+            </Button>
+            <Button Command="{Binding LayoutOptionsStartCenterEnd}" Text="Layout Options Start Center End">
+            </Button>
+            <Button Command="{Binding LayoutOptionsExpand}" Text="Layout Options Expand">
+            </Button>
+            <Button Command="{Binding Grid}" Text="Grid">
+            </Button>
+            <Button Command="{Binding AbsoluteLayout}" Text="Absolute Layout">
+            </Button>
+            <Button Command="{Binding AbsoluteLayoutProportionally}" Text="Absolute Layout Proportionally">
+            </Button>
+            <Button Command="{Binding RelativeLayout}" Text="Relative Layout">
+            </Button> 
+
+			<Label Text="By @RodH257" HorizontalOptions="Center">
+			</Label>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

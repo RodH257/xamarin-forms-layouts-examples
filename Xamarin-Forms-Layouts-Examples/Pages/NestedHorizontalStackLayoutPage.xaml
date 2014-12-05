@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsLayoutsExamples.NestedHorizontalStackLayoutPage">
+	<ContentPage.Content>
+		<StackLayout Orientation="Vertical">
+			<StackLayout Orientation="Horizontal">
+				<Label Text="Left">
+				</Label>
+				<Label Text="Center">
+				</Label>
+				<Label Text="Right">
+				</Label>
+			</StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Label Text="Left 2">
+				</Label>
+				<Label Text="Center 2">
+				</Label>
+				<Label Text="Right 2">
+				</Label>
+			</StackLayout>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

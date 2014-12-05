@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsLayoutsExamples.RelativeLayoutPage">
+	<ContentPage.Content>
+	  <RelativeLayout x:Name="relativeLayout">
+			<BoxView x:Name="topBox" 
+	             Color="Red"
+	             RelativeLayout.XConstraint=
+	                 "{ConstraintExpression Type=RelativeToParent,
+	                                        Property=Width,
+	                                        Factor=0.3}"
+	             RelativeLayout.YConstraint=
+	                 "{ConstraintExpression Type=RelativeToParent,
+	                                        Property=Height,
+	                                        Factor=0.2}" 
+	             RelativeLayout.WidthConstraint=
+	                 "{ConstraintExpression Type=RelativeToParent,
+	                                        Property=Width,
+	                                        Factor=0.3}"
+	             RelativeLayout.HeightConstraint=
+	                 "{ConstraintExpression Type=Constant,
+	                                        Property=Height,
+	                                        Constant=100}"  />
+	    
+
+   			 <Label Text="This box is red"
+	             RelativeLayout.XConstraint=
+	                 "{ConstraintExpression Type=RelativeToView,
+	                                        ElementName=topBox,
+	                                        Property=X}"
+	             RelativeLayout.YConstraint=
+	                 "{ConstraintExpression Type=RelativeToView,
+	                                        ElementName=topBox,
+	                                        Property=Y,
+	                                        Constant=100}"
+	             RelativeLayout.WidthConstraint=
+	                 "{ConstraintExpression Type=RelativeToView,
+	                                        ElementName=topBox,
+	                                        Property=Width,
+	                                        Factor=0.33}"
+	             RelativeLayout.HeightConstraint=
+	                 "{ConstraintExpression Type=RelativeToView,
+	                                        ElementName=topBox,
+	                                        Property=Height,
+	                                        Factor=0.33}"  />
+          </RelativeLayout>
+	</ContentPage.Content>
+</ContentPage>

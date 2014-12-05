@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinFormsLayoutsExamples.AbsoluteLayoutProportionallyPage">
+	<ContentPage.Content>
+		<AbsoluteLayout>
+			<BoxView BackgroundColor="Blue" AbsoluteLayout.LayoutFlags="SizeProportional" AbsoluteLayout.LayoutBounds="25, 50, 0.25, 0.25">
+			</BoxView>
+			<BoxView BackgroundColor="Red"  AbsoluteLayout.LayoutFlags="PositionProportional"  AbsoluteLayout.LayoutBounds="0.75, 0.75, 30, 30">
+			</BoxView>
+		</AbsoluteLayout>
+	</ContentPage.Content>
+</ContentPage>
